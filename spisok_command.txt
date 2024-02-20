@@ -1,0 +1,21 @@
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+git init
+git status
+git add (имя файла с расширением, без скобок)
+git status
+git rm (имя файла с расширением, без скобок)
+touch .gitignore
+git add *
+git add .
+git commit -m "Initial commit"
+git commit -m "Added Hello World"
+git log
+git diff
+git remote add origin (ссылка для связи с gitlab, без скобок)
+git remote
+git push -u origin (имя ветки, по умолчанию - master, без скобок)
+git branch (имя создаваемой ветки, без скобок)
+git checkout (имя ветки, на которую переключаетесь, без скобок)
+git merge (имя ветки, с которую хотим "влить" в текущую, без скобок)
+git clone (ссылка для клонирования с gitlab, без скобок)
